@@ -16,3 +16,10 @@
 
 
 
+
+
+ > ##### *finished work for day 31/05*
+  > ##### *o que iremos trabalhar no dia 01/06*
+  > - Bootstrap 
+  > - debug javascript 
+

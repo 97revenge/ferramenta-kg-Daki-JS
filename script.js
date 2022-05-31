@@ -63,10 +63,8 @@ const acougueClass = {
             kg: 500,
             congelado: false,
             value: 14.99
+        },
 
-
-
-        }
 
 
     }

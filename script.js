@@ -5,7 +5,14 @@ const bagRider = {
 const carrinho = value(0);
 
 
+/* REFRIGERAÇÃO */
 
+let congelado = true;
+
+/* REFRIGERAÇÃO */
+
+
+/* GLOBAL CLASSES  */
 
 const hortifruttiClass = {
     "batata doce ": {
@@ -42,12 +49,29 @@ const hortifruttiClass = {
     }
 
 
+
 };
+const acougueClass = {
+    frangos: {
+        ["filé de frango para strogonoff", 500, { $value: 16.99 }]
+        ["sobrecoxa de frango sem pele", 500, { $value: 14.99 }]
+        ["Filé de frango em bife içougue", 500, { $value: 15.99 }]
+    },
+    bovinos: {
+        ["Carne Moida de primeira", 500, { $value: 29.99 }]
+        ["Bife de ancho ", 500, { $value: 45.65 }]
+        ["Picanha Nobre", kg(1), { $value: 130.90 }]
+    },
+    suinos: {
+        ["filet mignon Suino", 500, { $value: 17.99 }]
+        ["costelinha suina em tiras", 500, { $value: 17.90 }]
+    }
 
 
 
-/* GLOBAL CLASSES  */
-const acougueClass = {};
+
+
+};
 const congeladosClass = {};
 const padariaClass = {};
 const laticinioClass = {};
@@ -84,3 +108,18 @@ function dropinBag(bagRider, kg, carrinho) {
 
 
 }
+
+function addingBag(bagRider, kg, )
+
+
+
+
+
+/*
+ANOTAÇOES DO CODIGO DIA 31/05
+"serão mais ou menos 6 itens de cada categoria no momento. Valor, Peso e Quantidade atualizados. 
+"
+
+
+
+*/

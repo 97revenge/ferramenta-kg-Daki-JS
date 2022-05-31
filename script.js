@@ -52,7 +52,32 @@ const hortifruttiClass = {
 
 };
 const acougueClass = {
+
     frangos: {
+        "filé de frango para strogonoff": {
+            kg: 500,
+            congelado: false,
+            value: 16.99
+        },
+        "sobrecoxa de frango sem pele": {
+            kg: 500,
+            congelado: false,
+            value: 14.99
+
+
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+    /*  frangos: {
         ["filé de frango para strogonoff", 500, { $value: 16.99 }]
         ["sobrecoxa de frango sem pele", 500, { $value: 14.99 }]
         ["Filé de frango em bife içougue", 500, { $value: 15.99 }]
@@ -67,7 +92,7 @@ const acougueClass = {
         ["costelinha suina em tiras", 500, { $value: 17.90 }]
     }
 
-
+ */
 
 
 
@@ -87,6 +112,7 @@ padariaClass = pada;
 laticinioClass = lati;
 destiladosClass = dest;
 bebidasClass = bebi;
+value = "R$:";
 
 
 

@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "inicialização tailwind",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/97revenge/ferramenta-kg-Daki-JS.git"
+  },
+  "author": "Matheus Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/97revenge/ferramenta-kg-Daki-JS/issues"
+  },
+  "homepage": "https://github.com/97revenge/ferramenta-kg-Daki-JS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

@@ -7,27 +7,56 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 
-<div class="container min-w-full">
-    <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="hidden bg-slate-500 md:block">
-            <img class="h-auto bg-cover bg-center bg-no-repeat" src="https://source.unsplash.com/random" />
-        </div>
-        <div class="mt-10">
-            <div class="flex justify-center">
-                <img class="h-52 rounded-full mb-4" src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg" />
+<!-- NAV BAR  -->
+<header>
+    <nav class="rounded border-gray-100 bg-blue-400 px-2 py-2.5 dark:bg-gray-800 sm:px-4">
+        <div class="container mx-auto flex flex-wrap place-items-start justify-between">
+            <a href="" class="mr-3 h-6 sm:h-9" alt="Daki Logo">
+                <img src="https://uploads-ssl.webflow.com/61b24ecf994eb57fa651658f/61b63e9ffd5a897fbbe6863c_DAKI2.svg" class="mr-3 h-6 sm:h-9" alt="Daki Logo SVG" />
+                <span class="text-x1 self-center whitespace-nowrap font-semibold dark:text-white"></span>
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button" class="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+                aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+          <svg class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </button>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium">
+                    <li>
+                        <button class="rounded border-b-4 border-blue-700 bg-blue-500 py-2 px-4 font-bold text-white hover:border-blue-500 hover:bg-blue-600">Inicio</button>
+                    </li>
+                    <li>
+                        <button class="rounded border-b-4 border-blue-700 bg-blue-500 py-2 px-4 font-bold text-white hover:border-blue-500 hover:bg-blue-600">Itens</button>
+                    </li>
+                    <li>
+                        <button class="rounded border-b-4 border-blue-700 bg-blue-500 py-2 px-4 font-bold text-white hover:border-blue-500 hover:bg-blue-600">Calculo</button>
+                    </li>
+                    <li>
+                        <button class="rounded border-b-4 border-blue-700 bg-blue-500 py-2 px-4 font-bold text-white hover:border-blue-500 hover:bg-blue-600">Configurações</button>
+                    </li>
+                    <li>
+                        <button class="rounded border-b-4 border-blue-700 bg-blue-500 py-2 px-4 font-bold text-white hover:border-blue-500 hover:bg-blue-600">Sobre</button>
+                    </li>
+                    <button class="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">Suporte</button>
+                </ul>
             </div>
-            <div class="animate-fade-in-down mb-1 text-center text-lg text-sky-600">Your Name</div>
-            <div class="animate-fade-in-down mb-8 text-center text-lg text-sky-800">Webdeveloper</div>
-            <blockquote>
-                <p class="animate-fade-in-down mx-12 mb-9 text-center text-sm">
-                    Hello <br /> my name is Taha and I am a Webdeveloper from Munich, Germany. I picked up Webdevelopment since a really young age and loved it ever since. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae
-                    quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur
-                    iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae
-                    fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint?
-                </p>
-            </blockquote>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="flex-mb-4 border-collapse">
+        <div class="wfull h-12 bg-blue-500 bg-fixed">
+            <!-- Pills navs -->
+            <ul class="nav nav-pills-mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <!-- <a href="#ex1-pills-1" class="nav-link active" data-mdb-toogle="pill" role="tab" aria-controls="ex1-pills-1" aria-selected="true"> Simulação Carrinho 1 </a> -->
+                </li>
+            </ul>
         </div>
     </div>
-</div>
+</body>
+
 
 </html>

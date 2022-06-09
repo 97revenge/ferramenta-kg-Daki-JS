@@ -52,26 +52,10 @@ const hortifruttiClass = {
 
 };
 const acougueClass = {
-<<<<<<< HEAD
-    frangos: {
-        ["filé de frango para strogonoff", 500, { $value: 16.99 }]
-        ["sobrecoxa de frango sem pele", 500, { $value: 14.99 }]
-        ["Filé de frango em bife içougue", 500, { $value: 15.99 }]
-    },
-    bovinos: {
-        ["Carne Moida de primeira", 500, { $value: 29.99 }]
-        ["Bife de ancho ", 500, { $value: 45.65 }]
-        ["Picanha Nobre", kg(1), { $value: 130.90 }]
-    },
-    suinos: {
-        ["filet mignon Suino", 500, { $value: 17.99 }]
-        ["costelinha suina em tiras", 500, { $value: 17.90 }]
-    }
-=======
 
     frangos: {
         "filé de frango para strogonoff": {
-            kg:;,
+            kg: 500,
             congelado: false,
             value: 16.99
         },
@@ -85,15 +69,11 @@ const acougueClass = {
             congelado: false,
             value: 15.99
         }
->>>>>>> bug
 
 
 
 
-<<<<<<< HEAD
-=======
     },
-
     bovinos: {
         "Carne moida de primeira": {
             kg: 500,
@@ -131,7 +111,6 @@ const acougueClass = {
  */
 
 
->>>>>>> bug
 
 };
 const congeladosClass = {};
@@ -172,37 +151,19 @@ function dropinBag(bagRider, kg, carrinho) {
 
 }
 
-<<<<<<< HEAD
-function addingBag(bagRider, kg, )
-=======
 function addingBag(bagRider, kg) {};
 
 function calculateKg(carrinho, kg) {
     if (carrinho <= kg(30000)) {
-        console.log("pesado demais para nossos Riders Levarem!, quer pagar adicional para +1 rider ajudar na entrega?")
+        console.log("pesado demais para nossos Riders Levarem!!!")
     } else if (carrinho <= kg(2000)) {
         console.log("está bem pesado, nossos riders podem demorar um pouco para chegar no seu destino. quer rever algo?");
-        return multiply();
+        return carrinho;
     }
 
 }
 
-function multiply(arr, n) {
-    let product = 1;
-    for (let i = 0; i < n; i++) {
-        product *= arr[i];
-    }
-    return product;
-}
 
-
-
-
-
-
-
-
->>>>>>> bug
 
 
 
@@ -212,19 +173,10 @@ function multiply(arr, n) {
 ANOTAÇOES DO CODIGO DIA 31/05
 "serão mais ou menos 6 itens de cada categoria no momento. Valor, Peso e Quantidade atualizados. 
 "
-<<<<<<< HEAD
-
-
-
-=======
 "é necessario criar uma conexao entre calculateKg e DropinBag".
 
 
+REFERENCE COMMITS :
+- RENOMEAR MARCAÇOES POR BLOCOS .
 
-ANOTAÇOES DO CODIGO DIA 01/06
-
-
-+ importante compreender que queremos que o carrinho e a bag do rider , seja a mesma coisa . 
-
->>>>>>> bug
 */

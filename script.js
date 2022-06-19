@@ -1,20 +1,32 @@
-const bagRider = {
+/* const bagRider = {
     kg,
     qnt
-};
+}; */
+Object.create(bagRider);
+
+const bagRider = () => kg,
+    qnt;
+
+
+
 const carrinho = value(0);
 
 
 /* REFRIGERAÇÃO */
 
-let congelado = true;
+let congelado = () => congelado ? true : false;
+
 
 /* REFRIGERAÇÃO */
 
 
 /* GLOBAL CLASSES  */
 
-const hortifruttiClass = {
+
+
+const hortifruttiClass = (kg, qnt, value) => { "batata doce", kg }
+
+const horttifruttiClass = {
     "batata doce ": {
         kg: 500,
         qnt: "2 a 3 UNID",

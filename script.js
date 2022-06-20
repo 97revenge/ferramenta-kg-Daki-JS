@@ -24,7 +24,7 @@ let congelado = () => e ? true : false;
 
 
 // const batataDoce = () => { produto:hortifruttiClass["batata-doce "] ,  hortifruttiClass.[{$kg}], hortifruttiClass.qnt[{$qnt}]}
-const hort = (hortifruttiClass) => {
+const horti = () => {
     hortifruttiClass = {
         "batata-doce": { kg: 500, qnt: "2 a 3 UNID", value: 5.99 },
         "tomate saladete": { kg: 500, qnt: "3 a 4 UNID", value: 5.94 },
@@ -33,85 +33,41 @@ const hort = (hortifruttiClass) => {
         "cenoura": { kg: 500, qnt: "3 a 6 UNID", value: 8.09 },
         "Mini cebola Bandeja": { kg: 500, qnt: "3 a 6 UNID", value: 3.99 },
     };
-    return hortifruttiClass.lenght();
-
-}
-
-var list = hort.hortifruttiClass.filter(function(item) {
-    return (item[0].kg.hort == 500 && item[0].qnt.hort && item[0].value.hort)
-
-
-
-});
-
-
-
-
-
-
-
-const acougueClass = {
-
-    frangos: {
-        "filé de frango para strogonoff": {
-            kg: 500,
-            congelado: false,
-            value: 16.99
-        },
-        "sobrecoxa de frango sem pele": {
-            kg: 500,
-            congelado: false,
-            value: 14.99
-        },
-        "Filé de frango em bife içougue": {
-            kg: 500,
-            congelado: false,
-            value: 15.99
-        }
-
-
-
-
-    },
-    bovinos: {
-        "Carne moida de primeira": {
-            kg: 500,
-            congelado: false,
-            value: 15.99
-        },
-
-        "bife de Ancho": {
-            kg: 500,
-            congelado: false,
-
-
-
-        }
-
-
-    }
-
-
-    /*  frangos: {
-        ["filé de frango para strogonoff", 500, { $value: 16.99 }]
-        ["sobrecoxa de frango sem pele", 500, { $value: 14.99 }]
-        ["Filé de frango em bife içougue", 500, { $value: 15.99 }]
-    },
-    bovinos: {
-        ["Carne Moida de primeira", 500, { $value: 29.99 }]
-        ["Bife de ancho ", 500, { $value: 45.65 }]
-        ["Picanha Nobre", kg(1), { $value: 130.90 }]
-    },
-    suinos: {
-        ["filet mignon Suino", 500, { $value: 17.99 }]
-        ["costelinha suina em tiras", 500, { $value: 17.90 }]
-    }
-
- */
-
-
+    return console.log(hortifruttiClass.lenght(arr.horti));
 
 };
+
+
+const acoug = () => {
+    frangos = {
+            "filé de frango para strogonoff": { kg: 500, congelado: false, value: 16.99 },
+            "sobrecoxa de frango sem pele": { kg: 500, congelado: false, value: 14.99 },
+            "Filé de frango em bife içougue": { kg: 500, congelado: false, value: 15.99 },
+        },
+        bovinos = {
+            "Carne moida de primeira": { kg: 500, congelado: false, value: 15.99 },
+            "bife de Ancho": { kg: 500, congelado: false, value: 17.99 }
+        },
+        suinos = {
+            "filet mignon Suino": { kg: 500, congelado: true, value: 15.99 },
+            "costelinha suina em tiras": { kg: 500, congelado: true, value: 17.90 }
+
+        }
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+const acougueClass = {}
 const congeladosClass = {};
 const padariaClass = {};
 const laticinioClass = {};
@@ -181,6 +137,16 @@ ANOTAÇÕES DO CODIGO DIA 19/06
  "Trabalhei um pouco mais no codigo ... o importante é fazer aconteçer 
  aplicar variaveis novas e refatorar o codigo sao duas ferramentas que me ajudam a manter o conceito produtivo e ativo , 
  mesmo que eu nao mexo no projeto a mais de 15 dias ...
+
+
+ ANOTAÇÕES DO DIA 20/06 
+
+ // var addlist = hort.hortifruttiClass.filter(function(item) {  REFERENCIA COM O CODIGO DA LINHA 27--
+//     for (i = 0; i == item; i++) {
+//         return (kg.lenght == 500 && item[0].qnt.hort && item[0].value.hort)
+//     }
+// });
+
 
 
 

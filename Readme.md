@@ -18,8 +18,23 @@
 
 
 
- > ##### *finished work for day 31/05*
-  > ##### *o que iremos trabalhar no dia 01/06*
-  > - Bootstrap 
-  > - debug javascript 
+
+
+
+ ### ANOTAÇOES DO CODIGO DIA 31/05
+> "serão mais ou menos 6 itens de cada categoria no momento. Valor, Peso e Quantidade atualizados. " <BR>
+"é necessario criar uma conexao entre calculateKg e DropinBag".
+
+
+### ANOTAÇÕES DO CODIGO DIA 19/06
+  >  "Trabalhei um pouco mais no codigo ... o importante é fazer aconteçer 
+    aplicar variaveis novas e refatorar o codigo sao duas ferramentas que me ajudam a manter o conceito produtivo e ativo , 
+    mesmo que eu nao mexo no projeto a mais de 15 dias ..."
+
+### ANOTAÇÕES DO CODIGO DIA 20/06 
+  > #### " começei a trabalhar com funcoes anonimas porque estou trazendo um objeto onde eu guardo produtos e suas especificaçoes, e um objeto undefined , onde eu quero trabalhar ``.filter`` para trazer uma nova lista do que foi selecionado. porem , a dificuldade está no nosso console onde eu recebo todo o escopo em dados , e nao como objeto... " 
+
+
+
+
 

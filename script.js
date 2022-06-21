@@ -1,20 +1,12 @@
  const bagRider = {
      kg: 0,
-     qnt: ""
+     qnt: new qnt()
  };
 
  const carrinho = () => value(0);
  let congelado = () => e ? true : false;
-
-
-
-
-
  /* GLOBAL CLASSES  */
 
-
-
- // const batataDoce = () => { produto:hortifruttiClass["batata-doce "] ,  hortifruttiClass.[{$kg}], hortifruttiClass.qnt[{$qnt}]}
  const horti = () => {
      hortifrutti = {
          "batata-doce": { kg: 500, qnt: "2 a 3 UNID", value: 5.99 },
@@ -44,8 +36,8 @@
              "costelinha suina em tiras": { kg: 500, congelado: true, value: 17.90 }
 
          };
-     return acoug = frangos.find(element => element > [0]);
 
+     return this.acoug(frangos.lenght[$kg], bovinos.lenght[$kg], suinos.lenght[$kg])
  };
 
 
@@ -70,13 +62,6 @@
 
  /* GLOBAL CATEGORIES  */
 
- congeladosClass = cong;
- padariaClass = pada;
- laticinioClass = lati;
- destiladosClass = dest;
- bebidasClass = bebi;
- value = "R$:";
-
 
 
  function dropinBag(bagRider, kg, carrinho) {
@@ -94,14 +79,17 @@
      return bagRider();
  }
 
- function addingBag(bagRider, kg) {};
 
- function calculateKg(carrinho, kg, carrinho) {
-     carrinho <= kg(30000) ?
+
+ function calculateKg(bagRider, kg, carrinho) {
+     carrinho >= kg(30000) ?
          console.log("pesado demais para nossos Riders Levarem!!!") :
          console.log("parece que esta pesado... nossos riders podem demorar um pouco para chegar no seu destino. quer rever algo?")
 
-     return value;
+     return bagRider;
 
      ;
  }
+
+
+ console.log("maconha");

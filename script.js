@@ -81,8 +81,8 @@
 
 
 
- function calculateKg(bagRider, kg, carrinho) {
-     carrinho >= kg(30000) ?
+ function calculateKg(...bagRider) {
+     bagRider.kg >= kg(30000) ?
          console.log("pesado demais para nossos Riders Levarem!!!") :
          console.log("parece que esta pesado... nossos riders podem demorar um pouco para chegar no seu destino. quer rever algo?")
 

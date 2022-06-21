@@ -26,102 +26,193 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&display=swap" rel="stylesheet" />
 <!-- FONT APIS -->
+<header>
 
+    <!-- NAV BAR  -->
+    <nav class="... ... rounded-l-lg rounded-r-lg bg-gradient-to-r from-sky-400/75 to-blue-500/90 hover:from-sky-600 hover:to-sky-500">
+        <div class="mx-auto flex items-center justify-between px-6 py-2">
+            <img class="flex py-4 px-4 backdrop-blur-md" src="https://uploads-ssl.webflow.com/61b24ecf994eb57fa651658f/61b63e9ffd5a897fbbe6863c_DAKI2.svg
+" alt="" />
+            <div class="mx-auto flex-row sm:hidden">
+                <div></div>
+            </div>
 
-
-
-<!-- Falta Trabalhar com o Tailwind & Vite ... 
-    
-    
-    
-    <header>
-  <nav class="... ... rounded-l-lg rounded-r-lg bg-gradient-to-r from-sky-400 to-blue-500 hover:from-sky-600 hover:to-sky-500">
-    <div class="mx-auto flex items-center justify-between px-6 py-2">
-      <img
-        class="flex py-4 px-4 backdrop-blur-md"
-        src="https://uploads-ssl.webflow.com/61b24ecf994eb57fa651658f/61b63e9ffd5a897fbbe6863c_DAKI2.svg
-"
-        alt=""
-      />
-      <div class="mx-auto flex-row sm:hidden">
-        <div></div>
-      </div>
-
-      <a href="#" class="text-2xl font-bold lg:text-4xl"> <div class="font-Mukta mx-auto h-9 w-96 font-extralight text-white">KG calculadora</div> </a>
-      <div class="block lg:hidden">
-        <button class="flex appearance-none items-center rounded border border-gray-600 px-3 py-2 text-gray-500 hover:border-teal-500 hover:text-gray-800 focus:outline-none btn btn-primary">
+            <a href="#" class="text-2xl font-bold lg:text-4xl">
+                <div class="font-Mukta mx-auto h-9 w-96 font-extralight text-white">KG calculadora</div>
+            </a>
+            <div class="block lg:hidden">
+                <button class="btn btn-primary flex appearance-none items-center rounded border border-gray-600 px-3 py-2 text-gray-500 hover:border-teal-500 hover:text-gray-800 focus:outline-none">
           <svg class="h-3 w-3 fill-current lg:hidden" viewBox="0 0 20 20" xmlns="https://img.icons8.com/ios/344/git.png"></svg>
         </button>
-      </div>
+            </div>
 
-      <div class="hidden lg:block">
-        <ul class="inline-flex space-x-5">
-          <li>
-            <a class="font-poppins px-6 font-bold text-gray-50" href="/"> <strong>Inicio</strong></a>
-          </li>
-          <li>
-            <a class="font-poppins px-6 font-bold text-gray-50 hover:text-gray-800" href="#"><strong>Calculo</strong></a>
-          </li>
-          <li>
-            <a class="font-poppins px-6 font-bold text-gray-50 hover:text-gray-800" href="#">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+            <div class="hidden lg:block">
+                <ul class="inline-flex space-x-5">
+                    <li>
+                        <a class="font-poppins px-6 font-bold text-gray-50" href="/"> <strong>Inicio</strong></a>
+                    </li>
+                    <li>
+                        <a class="font-poppins px-6 font-bold text-gray-50 hover:text-gray-800" href="#"><strong>Calculo</strong></a>
+                    </li>
+                    <li>
+                        <a class="font-poppins px-6 font-bold text-gray-50 hover:text-gray-800" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
+
 <body>
-  <!-- Section 1  -->
-<section class="bg-white px-2 py-32 md:px-0">
-    <div class="container mx-auto max-w-6xl items-center px-8 xl:px-5">
-        <div class="flex flex-wrap items-center sm:-mx-3">
-            <div class="w-full md:w-1/2 md:px-3">
-                <div class="w-full space-y-6 pb-6 sm:max-w-md sm:pr-5 md:space-y-4 md:pb-0 lg:max-w-lg lg:space-y-8 lg:pr-0 xl:space-y-9">
-                    <h1 class="font-Mukta text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-start xl:text-6xl">
-                        <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-sky-500">
+    <!-- Section 1  -->
+    <section class="bg-white bg-slate-100/30 px-2 py-32 md:px-0">
+        <div class="container mx-auto max-w-6xl items-center px-8 xl:px-5">
+            <div class="flex flex-wrap items-center sm:-mx-3">
+                <div class="w-full md:w-1/2 md:px-3">
+                    <div class="w-full space-y-6 pb-6 sm:max-w-md sm:pr-5 md:space-y-4 md:pb-0 lg:max-w-lg lg:space-y-8 lg:pr-0 xl:space-y-9">
+                        <h1 class="font-Mukta text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-start xl:text-6xl">
+                            <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-sky-500">
                 <span class="font-Mukta relative block text-white xl:inline"> Calculadora de peso para</span>
-                        <span class="class text-indigo 600 font-Mukta relative block text-white xl:inline" style="text-decoration: underline;"> <strong>Entregadores</strong> </span>
-                        </span>
-                    </h1>
-                    <p class="text-gray 500 text-gray font-poppins mx-auto text-base font-light sm:max-w-md md:max-w-3xl lg:text-xl">"Começei a perceber que o quanto eu tenho em minha bag fazia toda a diferença. Talvez pensar em <span style="text-decoration: underline;">regras de negocios</span> para conectar quantidades a pedidos longes a serem dinamicos, faria
-                        entregas pesadas serem mais eficazes com grandes quantidades de produtos"</p>
-                    <div class="relative flex flex-col sm:flex-row sm:space-x-4">
-                        <a href="#_" class="mb-3 flex w-full items-center rounded-lg bg-gradient-to-r from-sky-400 to-blue-500 px-6 text-lg text-white hover:from-sky-600 hover:to-sky-500 sm:w-auto">
-                            <strong>COMEÇE AGORA </strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <span class="class text-indigo 600 font-Mukta relative block text-white xl:inline" style="text-decoration: underline;"> <strong>Entregadores</strong> </span>
+                            </span>
+                        </h1>
+                        <p class="text-gray 500 text-gray font-poppins mx-auto text-base font-light sm:max-w-md md:max-w-3xl lg:text-xl">"Começei a perceber que o quanto eu tenho em minha bag fazia toda a diferença. Talvez pensar em <span style="text-decoration: underline;">regras de negocios</span> para conectar quantidades a pedidos longes a serem dinamicos, faria
+                            entregas pesadas serem mais eficazes com grandes quantidades de produtos"</p>
+                        <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+                            <a href="#_" class="mb-3 flex w-full items-center rounded-lg bg-gradient-to-r from-sky-400 to-blue-500 px-6 text-lg text-white hover:from-sky-600 hover:to-sky-500 sm:w-auto">
+                                <strong>COMEÇE AGORA </strong>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                   <polyline points="12 5 19 12 12 19"></polyline>
                 </svg>
-                        </a>
-                        <a href="" class="md hover 200 font-Mukta flex items-center rounded rounded-full bg-gray-100 px-6 py-3 text-gray-500 hover:text-gray-600"> Saiba mais Sobre </a>
+                            </a>
+                            <a href="" class="md hover 200 font-Mukta flex items-center rounded rounded-full bg-gray-100 px-6 py-3 text-gray-500 hover:text-gray-600"> Saiba mais Sobre </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="xl h-auto w-full overflow-hidden rounded-md shadow sm:rounded-xl">
+                        <img src="https://i.pinimg.com/originals/55/b2/39/55b2396cb95014b721fa2ed451a631bf.png" />
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2">
-                <div class="w-full h-auto overflow-hidden rounded-md shadow xl sm:rounded-xl">
-                    <img src="https://i.pinimg.com/originals/55/b2/39/55b2396cb95014b721fa2ed451a631bf.png">
+        </div>
+    </section>
+
+    <div class="lg:max-w-screen mx-auto bg-slate-200/20 px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20">
+        <div class="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
+            <div>
+                <p class="bg-teal-accent-400 mb-4 inline-block rounded-full px-3 py-px text-xs font-semibold uppercase tracking-wider text-gray-900/50">Uma nova Ferramenta</p>
+            </div>
+            <h2 class="font-Mukta mb-6 max-w-lg text-3xl font-bold leading-none tracking-tight text-sky-600/80 sm:text-4xl md:mx-auto">
+                <span class="relative inline-block">
+          <svg viewBox="0 0 52 24" fill="currentColor" class="text-blue-gray-100 absolute top-0 left-0 z-0 -mt-8 -ml-20 hidden w-32 sm:block lg:-ml-28 lg:-mt-10 lg:w-32">
+            <defs>
+              <pattern id="bfcc89c7-3b4a-491a-bc7e-53e26502ff69" x="0" y="0" width=".135" height=".30">
+                <circle cx="1" cy="1" r=".7"></circle>
+              </pattern>
+            </defs>
+            <rect fill="url(#bfcc89c7-3b4a-491a-bc7e-53e26502ff69)" width="52" height="24"></rect>
+          </svg>
+          <span class="relative bg-blue-800/10"> Calculando o quanto levamos </span> Podemos cobrar mais por isso
+                </span>
+            </h2>
+
+            <p class="font-poppins text-base font-semibold text-gray-700 md:text-lg">
+                <em> "Se temos muito peso , outro entregador pode ajudar na entrega, se sabemos que aquele pedido tem congelados ou itens extremamente frágeis, podemos dar prioridade"</em>
+            </p>
+
+            <!-- COMPONENTE STEP -->
+
+            <div class="grid gap-8 row-gap-8 lg:grid-cols-3 pt-10">
+                <!-- COMPONEMTE 1  -->
+                <div class="sm:text-center">
+                    <div class="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-gray-700 bg-blue-500/50 sm:mx-auto shadow-md">
+                        <img src="https://uploads-ssl.webflow.com/61b24ecf994eb57fa651658f/61d725da2f6fbb8659706792_Frame%2015.svg" alt="" class="rounded-full">
+                    </div>
+                    <h6 class="mb-2 font-semibold font-Mukta leading-5">
+                        Valores Adicionais
+                    </h6>
+                    <p class="max-w-md mb-3 text-lg  sm:mx-auto">
+                        <div class="bg-blue-800/10 shadow-sm font-semibold text-sky-600 font-poppins rounded-md">
+                            Sabendo o quanto de peso estamos levando , podemos adicionar mais um entregador para agilizar a entrega.
+                        </div>
+
+                    </p>
+
+                </div>
+                <!-- COMPONENTE 2 -->
+                <div class="sm:text-center">
+                    <div class="flex items-center justify-center w-24 h 24 mb-4 text-5xl font-extrabold rounded-full text-gray-700 bg-blue-500/50 sm:mx-auto shadow-md">
+                        <img src="https://uploads-ssl.webflow.com/61b24ecf994eb57fa651658f/61d725da64a05041533976ac_Frame%2016.svg" alt="" class="rounded-full">
+                    </div>
+                    <h6 class="mb-2 font-semibold font-Mukta leading-5">
+                        pesquisa de dados
+                    </h6>
+                    <p class="max-w-md mb-3 text-lg  sm:mx-auto">
+                        <div class="bg-blue-800/10 shadow-sm font-semibold text-sky-600 font-poppins rounded-md">
+                            Sabendo o quanto de peso estamos levando , podemos adicionar mais um entregador para agilizar a entrega.
+                        </div>
+
+                    </p>
 
 
                 </div>
+
+                <!-- COMPONENTE 3 -->
+                <div class="sm:text-center">
+                    <div class="flex items-center justify-center w-24 h 24 mb-4 text-5xl font-extrabold rounded-full text-gray-700 bg-blue-500/50 sm:mx-auto shadow-md">
+                        <img src="https://uploads-ssl.webflow.com/61b24ecf994eb57fa651658f/61d725daa5729a6898d39311_Frame%2017.svg" alt="" class="rounded-full">
+                    </div>
+                    <h6 class="mb-2 font-semibold font-Mukta leading-5">
+                        entrega cada vez mais <strong>Dinamica</strong>
+                    </h6>
+
+                    <p class="max-w-md mb-3 text-lg  sm:mx-auto">
+                        <div class="bg-blue-800/10 shadow-sm font-semibold text-sky-600 font-poppins rounded-md">
+                            Sabendo o quanto de peso estamos levando , podemos adicionar mais um entregador para agilizar a entrega.
+                        </div>
+
+                    </p>
+
+
+                </div>
+
+
+
+
             </div>
+
+
         </div>
+
+
+
     </div>
-</section>
+
+    </div>
 
 
+    </div>
+    </div>
 
-
-
-
-
+    </div>
 </body>
 
 
+<footer></footer>
 
 
-<!-- BEFORE AND AFTER ELEMENTS  -->
 
-H1-DIVIDER: before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-sky-500 relative inline-block -->
+
+
+
+
+
+
+
+
+
 
 
 
